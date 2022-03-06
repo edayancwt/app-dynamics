@@ -1,6 +1,8 @@
 import requests
 import json
 
+# ----------------------------------- GET THE TOKEN -------------------------------------------
+
 url = "https://accounts.stage-mycwt.com/as/token.oauth2?grant_type=password&username=shlomy16@yopmail.com&password=Qwerty15!"
 payload = "client_id=CwtToGoOauthClient"
 headers = {
@@ -14,7 +16,7 @@ myToken = rawToken.text.replace("{", "").replace("\"", "").replace("access_token
 # print(rawToken.text)
 # print(myToken)
 
-# ------------------------------------------------------------------------------
+# ----------------------------------- RUN SEARCH -------------------------------------------
 
 url = "https://apistage.worldmate.com/gateway/car-rental/search"
 
@@ -52,6 +54,7 @@ response = requests.request("POST", url, headers=headers, data=payload)
 assert response.status_code == 200, "Status code is not 200"
 
 # Check response to contain some text, if not send error to console.
-assert "rentalRoundedDays" in response.text, "Expected response to contain rentalRoundedDays"
+textToVerify = "rentalRoundedDays"
+assert textToVerify in response.text, "Response is not including: "+textToVerify
 
 print(response.text)

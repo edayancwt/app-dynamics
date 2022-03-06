@@ -1,6 +1,23 @@
 import requests
 import json
 
+# ----------------------------------- GET THE TOKEN -------------------------------------------
+
+url = "https://accounts.stage-mycwt.com/as/token.oauth2?grant_type=password&username=shlomy16@yopmail.com&password=Qwerty15!"
+payload = "client_id=CwtToGoOauthClient"
+headers = {
+    'Content-Type': 'application/x-www-form-urlencoded',
+    'Cookie': 'NSC_TUBHF_qjoh_gfe_dmvtufs_mcwt=14b5a3d907ae730905f9bfc7f098c33361acf7a69a3a2ce3f01643004ad1133756fd6511; PF=BljJ8gF0TGfdJXjYGgW8qv'
+}
+
+rawToken = requests.request("POST", url, headers=headers, data=payload)
+myToken = rawToken.text.replace("{", "").replace("\"", "").replace("access_token:", "").replace(",", "").split("refresh_token")[0]
+
+# print(rawToken.text)
+# print(myToken)
+
+# ----------------------------------- RUN SEARCH -------------------------------------------
+
 url = "https://apistage.worldmate.com/gateway/car-rental/booking"
 
 payload = json.dumps({
@@ -24,10 +41,17 @@ headers = {
     'cwt-token-type': 'pingFed',
     'cwt-client-id': 'pegaOAuthClient',
     'VARIANT_ID': '3',
-    'auth': 'Bearer eyJhbGciOiJSUzUxMiIsImtpZCI6InRva2VuQ2VydCJ9.eyJzY29wZSI6W10sImNsaWVudF9pZCI6IkN3dFRvR29PYXV0aENsaWVudCIsImp3dE9BdXRoIjoiS0VoZDZtSzUySHQ4dzU2ZDRTYTlUd3VhUVoxUGg1MUYiLCJpZG1FbWFpbCI6IkFBcnJpZXNnYWRvQENhcmxzb253YWdvbmxpdC5jb20iLCJsYXN0TmFtZSI6IkFycmllc2dhZG8iLCJ0b3BJZCI6ImE6MTE2MGMiLCJyb2xlcyI6InRyYXZlbGVyIiwidHJhdmVsZXJFbWFpbCI6IkFBcnJpZXNnYWRvQENhcmxzb253YWdvbmxpdC5jb20iLCJ0cmF2ZWxlclR5cGVHVUlEIjoiQTpEQzE1Iiwic3ViSWQiOiJhOjRlNzE4IiwiZmlyc3ROYW1lIjoiSm9kaWUiLCJtaWRkbGVOYW1lIjoiV29kaWUiLCJpZCI6ImU4YjE4Nzc0LTNlODMtNDBjNi05YzNlLWU4ODIzYzU1NGNhZSIsIjNyZFBhcnR5U3luY0lkIjoiVFFaMkRUSkZPQSIsInRyYXZlbGVyR1VJRCI6ImE6NDAzZTk4MWEiLCJ1c2VybmFtZSI6ImNhcmdkc3Byb0B5b3BtYWlsLmNvbSIsImV4cCI6MTY0NjIxNjc5OH0.fXfzcjH9vT9UQBbEBVy83pJzdgGkVOLPwrAYfAOqATHhYcbrInpuWQMfeYENe9t3x81_Kuc3Xxdv6Q_6VoYHH7ibRGDEmU-ZknjmBMRUAfMfId06nC5nwkqMLhHB3zRwCEHDGjY6bXWXINmpdeMgfaxuzhUt1HfkeMXBlIG2xUSasEQmVEj5_RMsUXL00Ocr48PlFdMaFSctYZbS9uOw4cg-tTdOg7IlQcp_IT8GARXxOU5HP2EwfMrXxYLF60aOubaZnihU_xvJ7OBgRGiV2KkALtj-OsjBjgNJG6lKZ0l1GSUPhlipYNNoibDI5QJHF8HsxCoSlwBDKf2tIsnUQQ',
+    'auth': 'Bearer '+myToken,
     'Content-Type': 'application/json'
 }
 
 response = requests.request("POST", url, headers=headers, data=payload)
+
+# Check status code is 200, if not send error to console.
+assert response.status_code == 200, "Status code is not 200"
+
+# Check response to contain some text, if not send error to console.
+textToVerify = "carReservation"
+assert textToVerify in response.text, "Response is not including: "+textToVerify
 
 print(response.text)
