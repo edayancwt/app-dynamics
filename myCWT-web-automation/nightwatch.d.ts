@@ -1,6 +1,6 @@
 
 // @ts-ignore
-import { NightWatchCustomCommands } from '../digital-itinerary-portlet/automation/commands';
+import { NightWatchCustomCommands } from '../myCWT-web-automation/automation/commands';
 
 // @ts-ignore
 export interface Assertion extends NightWatchBrowser {

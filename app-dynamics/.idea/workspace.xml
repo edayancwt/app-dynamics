@@ -2,102 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4581ba99-44d2-4d0e-8bea-f3348b6e648d" name="Changes" comment="Updates 6/3/2022">
-      <change afterPath="$PROJECT_DIR$/appD/portrait-api-search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/backSpace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/clearValueByCss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/clearValueByXpath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/clickIfExistByCss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/clickIfExistByXpath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/commands-api/apiValidateResponseValue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/commands-api/apiValidateStatusCode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/commands-authentication/loginToIDMProd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/commands-authentication/loginToIDMStage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/commands-authentication/loginToPortalProd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/commands-authentication/loginToPortalStage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/commands-authentication/loginToPortraitProd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/commands-authentication/loginToPortraitStage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/commands-authentication/portalLogout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/commands-car/selectCarPickUpTime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/commands-car/selectSpecificUpcomingCarDates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/commands-car/selectUpcomingCarDates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/commands-hotel/selectSpecificUpcomingHotelDates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/commands-hotel/selectUpcomingHotelDates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/commands-hotel/usePriceSlider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/dblClick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/elementDisabledByCss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/elementDisabledByXpath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/elementNotPresentByCss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/elementPresentByCss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/elementPresentByXpath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/enterValue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/getPseudoElementText.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/getUserServerTokens.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/hasValidLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/isElementExistWithRefresh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/mapZoomIn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/mapZoomOut.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/multipleClicks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/pageSpellCheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/refreshToken.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/scrollToElement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/scrollToLocation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/setValidPassword.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/stop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/switchToTab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/textorByCss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/textorByXpath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/uploadFile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/validateAccessToken.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/validateCookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/validateUrlOnSecondTab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/validateUrlResponse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/waitAndClickByCss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/waitAndClickByXpath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/waitAndClickOnText.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/waitAndSetValueByCss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/waitAndSetValueByXpath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/waitFor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/waitForAttributeContainsByCss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/waitForAttributeContainsByXpath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/waitForPropertyContainsByCss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/waitForPropertyNotContainsByCss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/waitForTextByCss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/waitForTextByXpath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/waitForUrlToContain.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/waitUntilClickable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/waitUntilElementIsClickable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/nightwatch.globals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-account-settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-airline-notifications.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-car-results.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-clientMaint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-forgot-password.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-forgot-username.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-idm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-logout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-my-travelers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-my-trips.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-portrait.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-signup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-sso.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-technical-assistance.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-terms-of-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-trip-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-yopmail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/test1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/nightwatch.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/nightwatch.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/bestPractices.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appD/car-api-booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/appD/car-api-booking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appD/car-api-search.py" beforeDir="false" afterPath="$PROJECT_DIR$/appD/car-api-search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/getUserServerTokens.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/pageSpellCheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/refreshToken.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/uploadFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/uploadFile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/test1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/test1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/nightwatch.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../myCWT-web-automation/nightwatch.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/nightwatch.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../myCWT-web-automation/nightwatch.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +181,7 @@
       <workItem from="1659276912927" duration="1196000" />
       <workItem from="1659421879031" duration="655000" />
       <workItem from="1659872448056" duration="736000" />
-      <workItem from="1661238135308" duration="3134000" />
+      <workItem from="1661238135308" duration="3732000" />
     </task>
     <task id="LOCAL-00001" summary="Updates 3/3/2022">
       <created>1646292274684</created>

@@ -11,6 +11,7 @@
 //             __/ |
 //            |___/
 //
+const Services = {}; loadServices();
 
 module.exports = {
   // An array of folders (excluding subfolders) where your tests are located;
@@ -22,10 +23,9 @@ module.exports = {
 
   // See https://nightwatchjs.org/guide/extending-nightwatch/custom-commands.html
   custom_commands_path: [
-    './automation/commands',
+    // './automation/commands',
     './automation/commands/commands-hotel',
     './automation/commands/commands-car',
-    './automation/commands/commands-applitools',
     './automation/commands/commands-api',
     './automation/commands/commands-authentication'
   ],
@@ -58,7 +58,7 @@ module.exports = {
 
       webdriver: {
         start_process: true,
-        server_path: ''
+        server_path: (Services.chromedriver ? Services.chromedriver.path : '')
       }
     },
 
@@ -70,8 +70,9 @@ module.exports = {
         }
       },
       webdriver: {
+        port: 4445,
         start_process: true,
-        server_path: ''
+        server_path: '/usr/bin/safaridriver'
       }
     },
 
@@ -90,7 +91,8 @@ module.exports = {
       },
       webdriver: {
         start_process: true,
-        server_path: '',
+        port: 4444,
+        server_path: (Services.geckodriver ? Services.geckodriver.path : ''),
         cli_args: [
           // very verbose geckodriver logs
           // '-vv'
@@ -117,7 +119,8 @@ module.exports = {
 
       webdriver: {
         start_process: true,
-        server_path: '',
+        port: 9515,
+        server_path: (Services.chromedriver ? Services.chromedriver.path : ''),
         cli_args: [
           // --verbose
         ]
@@ -360,3 +363,20 @@ module.exports = {
     }
   }
 };
+
+function loadServices() {
+  try {
+    Services.seleniumServer = require('selenium-server');
+    // eslint-disable-next-line no-empty
+  } catch (err) {}
+
+  try {
+    Services.chromedriver = require('chromedriver');
+    // eslint-disable-next-line no-empty
+  } catch (err) {}
+
+  try {
+    Services.geckodriver = require('geckodriver');
+    // eslint-disable-next-line no-empty
+  } catch (err) {}
+}
