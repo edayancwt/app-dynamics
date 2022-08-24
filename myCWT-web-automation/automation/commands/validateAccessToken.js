@@ -6,8 +6,8 @@
  */
 const util = require('util');
 const events = require('events');
-const pfClient = require('cwt-pf-client');
-const httpClient = require('cwt-http-client');
+// const pfClient = require('cwt-pf-client');
+// const httpClient = require('cwt-http-client');
 
 function ValidatetUserServerTokens() {
     events.EventEmitter.call(this);

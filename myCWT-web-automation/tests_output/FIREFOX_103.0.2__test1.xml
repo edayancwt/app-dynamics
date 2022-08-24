@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="0">
+
+  <testsuite name="test1"
+    errors="1" failures="1" hostname="" id="" package="test1" skipped="3"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+       → SessionNotCreatedError
+
+    session not created: This version of ChromeDriver only supports Chrome version 105
+Current browser version is 104.0.5112.101 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+ → TypeError
+
+    Cannot read property &#39;quit&#39; of undefined
+
+    Error location:
+/Users/evyatardayan/IdeaProjects/myCWT-web-automation/automation/tests/test1.js:
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+ 15 |         });
+ 16 | 
+ 17 |         after(() =&gt; driver.quit()); 
+ 18 | 
+ 19 |         it(&#39;Basic Chrome test&#39;, async function() {
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    Stack Trace :
+at DescribeInstance.&lt;anonymous&gt; (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/automation/tests/test1.js:17:28)
+at Context.call (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/nightwatch/lib/testsuite/context.js:430:35)
+at Context.invokeMethod (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/nightwatch/lib/testsuite/context.js:399:29)
+at /Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/nightwatch/lib/testsuite/hooks/_basehook.js:79:24
+at new Promise (&lt;anonymous&gt;)
+at AfterAll.run (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/nightwatch/lib/testsuite/hooks/_basehook.js:54:14)
+at Runnable.__runFn (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/nightwatch/lib/testsuite/index.js:412:35)
+at Runnable.run (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/nightwatch/lib/testsuite/runnable.js:126:21)
+at TestSuite.createRunnable (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/nightwatch/lib/testsuite/index.js:800:33)
+at TestSuite.handleRunnable (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/nightwatch/lib/testsuite/index.js:805:33)
+
+    </system-err>
+  
+
+    
+    <error message="Cannot read property &#39;quit&#39; of undefined"><![CDATA[
+      TypeError: Cannot read property &#39;quit&#39; of undefined
+    at DescribeInstance.&lt;anonymous&gt; (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/automation/tests/test1.js:17:28)
+    at Context.call (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/nightwatch/lib/testsuite/context.js:430:35)
+    at Context.invokeMethod (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/nightwatch/lib/testsuite/context.js:399:29)
+    at /Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/nightwatch/lib/testsuite/hooks/_basehook.js:79:24
+    at new Promise (&lt;anonymous&gt;)
+    at AfterAll.run (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/nightwatch/lib/testsuite/hooks/_basehook.js:54:14)
+    at Runnable.__runFn (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/nightwatch/lib/testsuite/index.js:412:35)
+    at Runnable.run (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/nightwatch/lib/testsuite/runnable.js:126:21)
+    at TestSuite.createRunnable (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/nightwatch/lib/testsuite/index.js:800:33)
+    at TestSuite.handleRunnable (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/nightwatch/lib/testsuite/index.js:805:33)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Basic Chrome test" classname="test1">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Basic Chrome test" classname="test1">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Basic Chrome test" classname="test1">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

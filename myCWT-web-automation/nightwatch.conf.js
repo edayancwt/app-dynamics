@@ -23,7 +23,7 @@ module.exports = {
 
   // See https://nightwatchjs.org/guide/extending-nightwatch/custom-commands.html
   custom_commands_path: [
-    // './automation/commands',
+    './automation/commands',
     './automation/commands/commands-hotel',
     './automation/commands/commands-car',
     './automation/commands/commands-api',

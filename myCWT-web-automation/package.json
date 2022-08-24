@@ -20,6 +20,7 @@
     "selenium-webdriver": "^4.4.0"
   },
   "devDependencies": {
-    "geckodriver": "^3.0.2"
+    "geckodriver": "^3.0.2",
+    "selenium-server": "^3.141.59"
   }
 }

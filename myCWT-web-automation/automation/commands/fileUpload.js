@@ -1,5 +1,5 @@
 /**
- * uploadFIle
+ * fileUpload
  */
 
 exports.command = function(filePath) {

@@ -7,7 +7,7 @@ export interface Assertion extends NightWatchBrowser {
 
   backSpace: (numberOfTimes: string) => NightWatchBrowser;
   clearValueByCss: (selector: string) => NightWatchBrowser;
-  uploadFile: (filePath: string) => NightWatchBrowser;
+  fileUpload: (filePath: string) => NightWatchBrowser;
   clearValueByXpath: (selector: string) => NightWatchBrowser;
   clickIfExistByCss: (selector: string) => NightWatchBrowser;
   clickIfExistByXpath: (selector: string) => NightWatchBrowser;
