@@ -3,7 +3,7 @@ import json
 
 # ----------------------------------- GET THE TOKEN -------------------------------------------
 
-url = "https://accounts.stage-mycwt.com/as/token.oauth2?grant_type=password&username=shlomy16@yopmail.com&password=Qwerty15!"
+url = "https://accounts.stage-mycwt.com/as/token.oauth2?grant_type=password&username=cargdspro@yopmail.com&password=Qwerty10!"
 payload = "client_id=CwtToGoOauthClient"
 headers = {
     'Content-Type': 'application/x-www-form-urlencoded',
@@ -25,13 +25,13 @@ payload = json.dumps({
         "carSearchCriteria": {
             "returnInfo": {
                 "time": "10:00",
-                "date": "2022-12-28",
+                "date": "2023-01-25",
                 "location": {
                     "airportCode": "SFO"
                 }
             },
             "pickUpInfo": {
-                "date": "2022-12-25",
+                "date": "2023-01-24",
                 "time": "10:00",
                 "location": {
                     "airportCode": "SFO"

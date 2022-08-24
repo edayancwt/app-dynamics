@@ -13,8 +13,8 @@ headers = {
 rawToken = requests.request("POST", url, headers=headers, data=payload)
 myToken = rawToken.text.replace("{", "").replace("\"", "").replace("access_token:", "").replace(",", "").split("refresh_token")[0]
 
-# print(rawToken.text)
-# print(myToken)
+print(rawToken.text)
+print(myToken)
 
 # ----------------------------------- RUN SEARCH -------------------------------------------
 
