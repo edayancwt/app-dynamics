@@ -1,0 +1,40 @@
+#Generated files
+coverage
+apps/monitor/web/monitorResults.json
+dist
+lib
+!/automation/lib
+
+#pacakge manager folder
+node_modules
+
+#OS
+.DS_Store
+.Trashes
+thumbs.db
+
+#IDE & Workspace files
+.idea
+.jshintrc
+.settings
+*.iml
+build/Release
+.lock-wscript
+*_local.js*
+*_override.js*
+*.swp
+
+#Runtime & Tmp files
+logs
+pids
+tmp
+tmp*
+*.tmp
+*.log
+*.wmlog
+*.pid
+*.seed
+dump.rdb
+erl_crash.dump
+outputPortal
+automation/output/*
