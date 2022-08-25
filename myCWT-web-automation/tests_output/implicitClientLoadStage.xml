@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="implicitClientLoadStage"
+    errors="1" failures="0" hostname="" id="" package="implicitClientLoadStage" skipped="9"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new GeckoDriver session: [WebDriverError] Process unexpectedly closed with status 0
+  Verify if GeckoDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/geckodriver/geckodriver&#39;,
+     port: 4444,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: []
+  }
+
+ 
+  More info might be available in the log file: /Users/evyatardayan/IdeaProjects/myCWT-web-automation/logs/implicitClientLoadStage_geckodriver.log
+    </system-err>
+  
+
+    
+    <error message="An error occurred while creating a new GeckoDriver session: [WebDriverError] Process unexpectedly closed with status 0"><![CDATA[
+      WebDriverError: An error occurred while creating a new GeckoDriver session: [WebDriverError] Process unexpectedly closed with status 0
+    at Object.throwDecodedError (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/selenium-webdriver/lib/error.js:522:15)
+    at parseHttpResponse (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/selenium-webdriver/lib/http.js:589:13)
+    at Executor.execute (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/selenium-webdriver/lib/http.js:514:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="step 0 - Create files" classname="implicitClientLoadStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 1 - Login to clientMaint with admin credentials" classname="implicitClientLoadStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 2 - Create traveller" classname="implicitClientLoadStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 4 - Validate updated traveller in IDM" classname="implicitClientLoadStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 5 - Report" classname="implicitClientLoadStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 6 - Login to clientMaint with admin credentials" classname="implicitClientLoadStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 7 - Update traveller" classname="implicitClientLoadStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 8 - Validate traveller is updated in IDM" classname="implicitClientLoadStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 9 - Delete all data files" classname="implicitClientLoadStage">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

@@ -10,7 +10,7 @@ module.exports = {
 
     menu: {
       profileServices: '#yui-gen2',
-      profile: '#yui-gen4',
+      profile: '#yui-gen3',
       profileLoad: '#yui-gen4',
       clientNameInput: '#clientName',
       findButton: '//*[@id="clientDetailsForm"]/table/tbody/tr[3]/td/table/tbody/tr[2]/td[2]/table/tbody/tr/td/table/tbody/tr[3]/td[2]/a',

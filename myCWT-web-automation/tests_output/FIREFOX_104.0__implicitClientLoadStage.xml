@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="3">
+
+  <testsuite name="implicitClientLoadStage"
+    errors="1" failures="1" hostname="" id="" package="implicitClientLoadStage" skipped="6"
+    tests="3" time="72.99" timestamp="">
+  
+    <testcase name="step 0 - Create files" classname="implicitClientLoadStage" time="0.003000" assertions="0">
+    </testcase>
+  
+    <testcase name="step 1 - Login to clientMaint with admin credentials" classname="implicitClientLoadStage" time="42.19" assertions="3">
+
+    
+
+    
+
+    
+    <error message="An error occurred while running .clearValue() command on &lt;#UserID&gt;: Timed out while waiting for element &#34;#UserID&#34; with &#34;css selector&#34; to be present for 5000 milliseconds." type="error"><![CDATA[
+    Error
+    at Object.step 1 - Login to clientMaint with admin credentials (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/automation/tests/stage/portrait/sanity/implicitClientLoadStage.js:53:8)
+    ]]></error>
+    
+    </testcase>
+  
+    <testcase name="step 2 - Create traveller" classname="implicitClientLoadStage" time="30.80" assertions="3">
+
+    
+
+      <failure message="Timed out while waiting for element &lt;#clientName&gt; to be present for 30000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (30268ms)">    at NightwatchAPI.exports.command (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/automation/commands/waitAndSetValueByCss.js:11:6)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       → NoSuchElementError
+
+    An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+1. Please inspect the html before the step
+2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+/Users/evyatardayan/IdeaProjects/myCWT-web-automation/automation/tests/stage/portrait/sanity/implicitClientLoadStage.js:
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+ 51 |     browser
+ 52 |       .url(globals.urls.clientMaint_stage_url)
+ 53 |       .clearValue(pageClientMaint.selectors.login.usernameInput).waitAndSetValueByCss(pageClientMaint.selectors.login.usernameInput, adminID) 
+ 54 |       .clearValue(pageClientMaint.selectors.login.passwordInput).waitAndSetValueByCss(pageClientMaint.selectors.login.passwordInput, adminPassword)
+ 55 |       // CLick on OK button
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="step 4 - Validate updated traveller in IDM" classname="implicitClientLoadStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 5 - Report" classname="implicitClientLoadStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 6 - Login to clientMaint with admin credentials" classname="implicitClientLoadStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 7 - Update traveller" classname="implicitClientLoadStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 8 - Validate traveller is updated in IDM" classname="implicitClientLoadStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 9 - Delete all data files" classname="implicitClientLoadStage">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

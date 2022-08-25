@@ -2,61 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4581ba99-44d2-4d0e-8bea-f3348b6e648d" name="Changes" comment="Updates 6/3/2022">
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/implicitClientLoadStage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/regression/CCRestrictionStage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/regression/devUrgentStage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/regression/updateTravellerStage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/restartServicesStage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/CRUDTravellerStage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/ESIDUpdateStage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/chinaExplicitClientLoadStage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/createTravellerValidationsStage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/explicitClientLoadStage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/implicitClientLoadStage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/ongoingHRLoadStage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/searchTravellerStage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/logs/implicitClientLoadStage_chromedriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/logs/test1_chromedriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/logs/test1_geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/nightwatch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/nightwatch2.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests/custom-assertions/elementHasCount.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests/custom-commands/angular/getElementsInList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests/custom-commands/strictClick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests/page-objects/google/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests/page-objects/google/searchResults.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests/specs/basic/duckDuckGo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests/specs/basic/ecosia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests/specs/basic/todoList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests/specs/with-custom-assertions/todoList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests/specs/with-custom-commands/angularTodo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests/specs/with-page-objects/google.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests/templates/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests/templates/titleAssertion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/CHROME_104.0.5112.101__implicitClientLoadStage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/CHROME_104.0.5112.101__implicitClientLoadStage.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/CHROME_104.0.5112.101__test1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/CHROME_104.0.5112.101__test1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/FIREFOX_103.0.2__test1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/FIREFOX_103.0.2__test1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/nightwatch-html-report/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/nightwatch-html-report/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/nightwatch-html-report/images/arrows.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/nightwatch-html-report/images/badges.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/nightwatch-html-report/images/nightwatch-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/nightwatch-html-report/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/nightwatch-html-report/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/test1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/test1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/portraitData/dataClientLoadCreate2219.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/portraitData/dataClientLoadCreate3751.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/portraitData/dataClientLoadCreate5841.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/portraitData/dataClientLoadCreate9315.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/portraitData/dataClientLoadDelete2219.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/portraitData/dataClientLoadDelete3751.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/portraitData/dataClientLoadDelete5841.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/portraitData/dataClientLoadDelete9315.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/portraitData/dataClientLoadUpdate2219.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/portraitData/dataClientLoadUpdate3751.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/portraitData/dataClientLoadUpdate5841.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/portraitData/dataClientLoadUpdate9315.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/stage/portrait/sanity/portraitData/implicitClientLoadCreate4940.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/drivers/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/drivers/geckodriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/drivers/msedgedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/logs/CRUDTravellerStage_chromedriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/logs/ESIDUpdateStage_chromedriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/logs/createTravellerValidationsStage_chromedriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/logs/explicitClientLoadStage_chromedriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/logs/explicitClientLoadStage_geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/logs/implicitClientLoadStage_geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/logs/implicitClientLoadStage_msedgedriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/logs/searchTravellerStage_chromedriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/logs/searchTravellerStage_geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/logs/searchTravellerStage_safaridriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/CHROME_104.0.5112.101__searchTravellerStage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/CHROME_104.0.5112.101__searchTravellerStage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/FIREFOX_104.0__implicitClientLoadStage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/FIREFOX_104.0__implicitClientLoadStage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/FIREFOX_104.0__searchTravellerStage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/FIREFOX_104.0__searchTravellerStage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/implicitClientLoadStage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/implicitClientLoadStage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/searchTravellerStage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/searchTravellerStage.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/uploadFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/fileUpload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/validateAccessToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/commands/validateAccessToken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-clientMaint.js" beforeDir="false" afterPath="$PROJECT_DIR$/../myCWT-web-automation/automation/pages/page-clientMaint.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/implicitClientLoadStage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/automation/tests/test1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/logs/implicitClientLoadStage_chromedriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/../myCWT-web-automation/logs/implicitClientLoadStage_chromedriver.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/nightwatch.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../myCWT-web-automation/nightwatch.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/nightwatch.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../myCWT-web-automation/nightwatch.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../myCWT-web-automation/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/nightwatch2.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/tests/custom-assertions/elementHasCount.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/tests/custom-commands/angular/getElementsInList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/tests/custom-commands/strictClick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/tests/page-objects/google/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/tests/page-objects/google/searchResults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/tests/specs/basic/duckDuckGo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/tests/specs/basic/ecosia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/tests/specs/basic/todoList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/tests/specs/with-custom-assertions/todoList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/tests/specs/with-custom-commands/angularTodo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/tests/specs/with-page-objects/google.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/tests/templates/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/tests/templates/titleAssertion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/nightwatch-html-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myCWT-web-automation/tests_output/nightwatch-html-report/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +230,7 @@
       <workItem from="1659276912927" duration="1196000" />
       <workItem from="1659421879031" duration="655000" />
       <workItem from="1659872448056" duration="736000" />
-      <workItem from="1661238135308" duration="6698000" />
+      <workItem from="1661238135308" duration="9287000" />
     </task>
     <task id="LOCAL-00001" summary="Updates 3/3/2022">
       <created>1646292274684</created>

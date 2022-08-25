@@ -66,7 +66,7 @@ module.exports = {
       desiredCapabilities : {
         browserName : 'safari',
         alwaysMatch: {
-          acceptInsecureCerts: false
+          acceptInsecureCerts: true
         }
       },
       webdriver: {
@@ -79,8 +79,8 @@ module.exports = {
     firefox: {
       desiredCapabilities : {
         browserName : 'firefox',
+        acceptInsecureCerts: true,
         alwaysMatch: {
-          acceptInsecureCerts: true,
           'moz:firefoxOptions': {
             args: [
               // '-headless',
@@ -143,7 +143,7 @@ module.exports = {
         start_process: true,
         // Download msedgedriver from https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/
         //  and set the location below:
-        server_path: '',
+        server_path: '/Users/evyatardayan/IdeaProjects/myCWT-web-automation/drivers/msedgedriver',
         cli_args: [
           // --verbose
         ]

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="searchTravellerStage"
+    errors="1" failures="0" hostname="" id="" package="searchTravellerStage" skipped="6"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+       → SessionNotCreatedError
+
+    Could not create a session: You must enable the &#39;Allow Remote Automation&#39; option in Safari&#39;s Develop menu to control Safari via WebDriver.
+    </system-err>
+  
+
+    
+    <error message="Could not create a session: You must enable the &#39;Allow Remote Automation&#39; option in Safari&#39;s Develop menu to control Safari via WebDriver."><![CDATA[
+      SessionNotCreatedError: Could not create a session: You must enable the &#39;Allow Remote Automation&#39; option in Safari&#39;s Develop menu to control Safari via WebDriver.
+    at Object.throwDecodedError (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/selenium-webdriver/lib/error.js:522:15)
+    at parseHttpResponse (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/selenium-webdriver/lib/http.js:589:13)
+    at Executor.execute (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/selenium-webdriver/lib/http.js:514:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="step 1 - Login to portrait on stage (via clientMaint)" classname="searchTravellerStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 2 - Search by email" classname="searchTravellerStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 3 - Search by name" classname="searchTravellerStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 4 - Search by pin" classname="searchTravellerStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 6 - Search by 3rd Party Sync ID" classname="searchTravellerStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 7 - Search by GUID" classname="searchTravellerStage">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

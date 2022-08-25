@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="searchTravellerStage"
+    errors="1" failures="1" hostname="" id="" package="searchTravellerStage" skipped="5"
+    tests="1" time="36.27" timestamp="">
+  
+    <testcase name="step 1 - Login to portrait on stage (via clientMaint)" classname="searchTravellerStage" time="36.27" assertions="1">  <failure message="Timed out while waiting for element &lt;#UserID&gt; to be present for 30000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (30114ms)">    at NightwatchAPI.exports.command (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/automation/commands/waitAndSetValueByCss.js:11:6)</failure>
+
+    
+    <error message="Timed out while waiting for element &lt;#UserID&gt; to be present for 30000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(30114ms)[0m" type="error"><![CDATA[
+    Error
+    at NightwatchAPI.exports.command (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/automation/commands/waitAndSetValueByCss.js:11:6)
+    at Immediate._onImmediate (/Users/evyatardayan/IdeaProjects/myCWT-web-automation/node_modules/nightwatch/lib/api/_loaders/command.js:31:33)
+    at processImmediate (internal/timers.js:456:21)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       → NoSuchElementError
+
+    An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+1. Please inspect the html before the step
+2. Verify if an element with the mentioned selector is present in the DOM tree
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="step 2 - Search by email" classname="searchTravellerStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 3 - Search by name" classname="searchTravellerStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 4 - Search by pin" classname="searchTravellerStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 6 - Search by 3rd Party Sync ID" classname="searchTravellerStage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 7 - Search by GUID" classname="searchTravellerStage">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
